@@ -2,10 +2,10 @@
 
 class conectar{
 
-    private $servidor ="localhost";
-    private $usuario ="root";
-    private $clave ="paula";
-    private $bd ="softienda";
+    private $servidor ="";
+    private $usuario ="";
+    private $clave ="";
+    private $bd ="";
 
     public function conexion(){   
         $conexion = mysqli_connect($this->servidor,$this->usuario,$this->clave,$this->bd);
